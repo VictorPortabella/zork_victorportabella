@@ -1,0 +1,9 @@
+﻿  world.cpp
+c:\users\victor\desktop\telecos\aa_master\upc\examen\zork-victor\world.cpp(226): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _kbhit. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\conio.h(458): note: vea la declaración de 'kbhit'
+c:\users\victor\desktop\telecos\aa_master\upc\examen\zork-victor\world.cpp(228): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\conio.h(452): note: vea la declaración de 'getch'
+c:\users\victor\desktop\telecos\aa_master\upc\examen\zork-victor\world.cpp(222): warning C4101: 'exist': variable local sin referencia
+c:\users\victor\desktop\telecos\aa_master\upc\examen\zork-victor\world.cpp(216): warning C4715: 'World::ExistAction': no todas las rutas de acceso de control devuelven un valor
+  zork.vcxproj -> C:\Users\Victor\Desktop\TELECOS\AA_MASTER\UPC\Examen\zork-victor\Debug\zork.exe
+  zork.vcxproj -> C:\Users\Victor\Desktop\TELECOS\AA_MASTER\UPC\Examen\zork-victor\Debug\zork.pdb (Partial PDB)

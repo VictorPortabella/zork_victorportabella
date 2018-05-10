@@ -97,7 +97,8 @@ int World::ExistAction(string *action)
 	r = (Room*)player->room;
 	int d;
 
-
+	//lista de las diferentes acciones validas: "atacar", "ayuda", "coger", "mirar", "ir, "inventario", "dejar"
+	//usualmente, se pedira que el usuario introduzca un segundo valor para especificar que quiere hacer
 	if (*action == "atacar") {
 		cout << "¿A quien quieres atacar?\n>";
 		r->listEnemies();
@@ -119,6 +120,7 @@ int World::ExistAction(string *action)
 				r->contains.remove(cr);
 			}
 			if (player->isAlive() == false) {
+				//Vida del jugador llega a 0, se reinicia el juego
 				cout << "HAS MUERTO\n" << "Presiona enter para reiniciar\n>";
 				UserAction(ptud);
 				while (*ptud != ("")) {
@@ -147,6 +149,7 @@ int World::ExistAction(string *action)
 					player->takeItem(i);
 					cout << i->name << " cogido con exito \n>";
 					if (i->name == "corona") {
+						//primer final, se reinicia el juego
 						cout << "¡Eres el nuevo rey!\nUn nuevo futuro te aguarda\n" << "Presiona enter para reiniciar\n>";
 						UserAction(ptud);
 						while (*ptud != ("")) {
@@ -176,6 +179,7 @@ int World::ExistAction(string *action)
 				if (ex->isLock(player) == false) {
 					Entity* des = &(*ex->destination);
 					if (des->name == "arrepentirse") {
+						//segundo final, se reinicia el juego
 						cout << "¡Has salvado tu alma!\nUn nuevo futuro te aguarda\n" << "Presiona enter para reiniciar\n>";
 						UserAction(ptud);
 						while (*ptud != ("")) {

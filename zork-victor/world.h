@@ -15,9 +15,9 @@ class Player;
 class World
 {
 public: World();
-	int ExistAction(string *action);
-	void UserAction(string *user_decision);
-	int Dice();
+	int ExistAction(string *action);		//ejecuta accion mediante el input del usuario
+	void UserAction(string *user_decision);	//recoje input del usuario
+	int Dice();								//valor aleatorio entre 1 y 6
 
 public:
 	Player *player;

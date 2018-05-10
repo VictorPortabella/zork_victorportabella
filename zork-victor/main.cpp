@@ -15,9 +15,10 @@ using namespace std;
 
 
 
-// -------------------------------------------------
+// Juego conversacional diseñado y desarrollado por: Victor Portabella
 int main()
 {
+	//primera bucle introducido para permitir reiniciar partida
 	while (1) {
 		World* world = new World();
 
@@ -34,6 +35,7 @@ int main()
 		world->ExistAction(&action);
 		action = "";
 
+		//segundo bucle introducido para recoger las acciones del usuario recursivamente
 		while (true) {
 
 			if (kbhit != 0) {
@@ -48,18 +50,18 @@ int main()
 						cout << '\b';
 					}
 				}
-				else if (letra == '\r') { //Ejecutamos accion
+				else if (letra == '\r') { //intenta realizar la accion mediante el comando "Enter" 
 					printf("\n");
 					exist = world->ExistAction(&action);
 					action.clear();
-					if (exist == 0) {
+					if (exist == 0) { //si funcion ExistAction devuelve 0, el input introducido no es correcto
 						printf("No puedes hacer eso \n > ");
 					}
-					else if (exist == -1) {
+					else if (exist == -1) { //si funcion ExistAction devuelve -1, se reinicia el juego
 						break;
 					}
 				}
-				else {
+				else { 
 					cout << letra;
 					action.push_back(letra);
 				}

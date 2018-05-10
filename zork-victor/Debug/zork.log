@@ -1,9 +1,24 @@
 ﻿  world.cpp
-c:\users\victor\desktop\telecos\aa_master\upc\examen\zork-victor\world.cpp(226): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _kbhit. See online help for details.
+c:\users\victor\desktop\telecos\aa_master\upc\examen\zork-victor\world.cpp(230): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _kbhit. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\conio.h(458): note: vea la declaración de 'kbhit'
-c:\users\victor\desktop\telecos\aa_master\upc\examen\zork-victor\world.cpp(228): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+c:\users\victor\desktop\telecos\aa_master\upc\examen\zork-victor\world.cpp(232): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\conio.h(452): note: vea la declaración de 'getch'
-c:\users\victor\desktop\telecos\aa_master\upc\examen\zork-victor\world.cpp(222): warning C4101: 'exist': variable local sin referencia
-c:\users\victor\desktop\telecos\aa_master\upc\examen\zork-victor\world.cpp(216): warning C4715: 'World::ExistAction': no todas las rutas de acceso de control devuelven un valor
+c:\users\victor\desktop\telecos\aa_master\upc\examen\zork-victor\world.cpp(226): warning C4101: 'exist': variable local sin referencia
+  main.cpp
+c:\users\victor\desktop\telecos\aa_master\upc\examen\zork-victor\main.cpp(28): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+c:\users\victor\desktop\telecos\aa_master\upc\examen\zork-victor\main.cpp(41): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _kbhit. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\conio.h(458): note: vea la declaración de 'kbhit'
+c:\users\victor\desktop\telecos\aa_master\upc\examen\zork-victor\main.cpp(43): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\conio.h(452): note: vea la declaración de 'getch'
+  Generando código...
+c:\users\victor\desktop\telecos\aa_master\upc\examen\zork-victor\world.cpp(220): warning C4715: 'World::ExistAction': no todas las rutas de acceso de control devuelven un valor
+  Omitiendo... (no se detectaron cambios relevantes)
+  room.cpp
+  player.cpp
+  npc.cpp
+  item.cpp
+  exit.cpp
+  entity.cpp
+  creature.cpp
   zork.vcxproj -> C:\Users\Victor\Desktop\TELECOS\AA_MASTER\UPC\Examen\zork-victor\Debug\zork.exe
   zork.vcxproj -> C:\Users\Victor\Desktop\TELECOS\AA_MASTER\UPC\Examen\zork-victor\Debug\zork.pdb (Partial PDB)

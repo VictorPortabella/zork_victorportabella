@@ -1,5 +1,6 @@
 Autor: Víctor Portabella
 Bienvenido a mi Zork! Te encuentras al final de una epica aventura donde deberas cumplir con el destino de tu heroe.
+Mediante tus acciones, podras decidir entre diferentes finales para tu viaje.
 Como jugar:
 Como juego conversacional, interactuaras con el entorno mediante comandos escritos.
 Introduzca unas de las siguientes instrucciones para actuar:
